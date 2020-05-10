@@ -4,84 +4,178 @@
 <head>
   <title>Jamie Anne White</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
   <style>
     address {
       font-style: normal;
+
+    }
+
+    .role {
+      font-weight: bold;
+      grid-column: 1 / span 2;
+
+    }
+
+    .position {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin-top: 25px;
+
+    }
+
+    .employment-date {
+      text-align: right;
+    }
+
+    .description {
+      grid-column: 1 / span 1;
+      font-style: italic;
+
+    }
+
+    li {
+      font-style: italic;
+    }
+
+    .employer {
+      margin-top: 0;
+
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      color: #dae1e7;
+      background-color: #27496d;
+
+    }
+
+    .container {
+      background-color: #142850;
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .role {
+      color: #00909e;
+
+    }
+
+    h1 {
+      margin-top: 0;
+      color: #00909e;
+      border-bottom: 1.5px groove #dae1e7;
+    }
+
+    h2 {
+      color: #00909e;
 
     }
   </style>
 </head>
 
 <body>
-  <header>
-    <h1>Jamie Anne White</h1>
-    <address>
-      <div>3132 Girard Avenue S, Apt 6</div>
-      <div>Minneapolis, MN 55408</div>
-      <div>651-802-8294</div>
-    </address>
-  </header>
+  <div class="container">
+    <header>
+      <h1>Jamie Anne White</h1>
+      <address>
+        <div>3132 Girard Avenue S, Apt 6</div>
+        <div>Minneapolis, MN 55408</div>
+        <div>651-802-8294</div>
+      </address>
+    </header>
 
-  <main>
-    <section>
-      <h2>Experience</h2>
+    <main>
+      <section>
+        <h2>Experience</h2>
 
-      <h3>When I Work - June 2019 to April 2020</h3>
-      <p>blah blah</p>
+        <div class="position">
+          <h3 class="employer">When I Work</h3>
+          <div class="employment-date">June 2019 to April 2020</div>
+          <div class="role">Sales Development Representative, Midmarket</div>
+          <div class="description"> When I Work is a dynamic and fast-paced organization. Our employees thrive in
+            situations that require flexibility, adaptability, and critical thinking. Successful employees are curious,
+            dependable, resourceful, and get joy from going beyond to make customers successful. Working with both the
+            small business and midmarket sales teams in an outbound sales role by calling and prospecting new potential
+            clients as well as working with the support and care teams to solve tickets and client problems.</div>
+        </div>
 
-      <h3>Associated Clinic of Psychology - January 2018 to May 2019</h3>
-      <p><b>Patient Services Coordinator in Adult Psychiatry (Outpatient)</b> - Providing intake therapy as well as
-        consultations for new clients to the clinic to let them know what services we provide compared to other
-        psychology clinics (sales). Checking-in patients, collecting co-pays, answering phone calls for clinic
-        appointments and other communications with staff or providers, providing triage for patients in crisis, and
-        monitoring activities in the waiting room to ensure a safe and patient friendly environment.</p>
+        <div class="position">
+          <h3 class="employer">Associated Clinic of Psychology</h3>
+          <div class="employment-date">January 2018 to May 2019</div>
+          <div class="role">Patient Services Coordinator in Adult Psychiatry (Outpatient)</div>
+          <div class="description">Providing intake therapy as well as consultations for new clients to the clinic to
+            let them know what services we provide compared to other psychology clinics (sales). Checking-in patients,
+            collecting co-pays answering phone calls for clinic appointments and other communications with staff or
+            providers, providing triage for patients in crisis, and monitoring activities in the waiting room to ensure
+            a safe and patient friendly environment.</div>
+        </div>
 
-      <h3>Musicant Group - November 2017 to December 2018</h3>
-      <p><b>Community Manager</b> - The Musicant Group is an interdisciplinary placemaking and public space management
-        firm
-        that creates places where people feel alive. We partner with community and commercial clients to create from
-        scratch or transform existing underutilized public and common area spaces into active places that people
-        seek-out and use every day. Management of 801 Marquette Atrium - a 4,000 sq/ft space - for programming and
-        events, and assisting the 121 S 8th Street and 801 Marquette Leasing Team (CBRE) and Property Management (RYAN
-        Companies) in leasing of downtown office space.</p>
+        <div class="position">
+          <h3 class="employer">Musicant Group</h3>
+          <div class="employment-date">November 2017 to December 2018</div>
+          <div class="role">Community Manager</div>
+          <div class="description">The Musicant Group is an interdisciplinary placemaking and public space managemen
+            firm that creates places where people feel alive. We partner with community and commercial clients to create
+            from scratch to transform existing underutilized public and common area spaces into active places that
+            people seek-out and use every day. Management of 801 Marquette Atrium - a 4,000 sq/ft space - for
+            programming and events, and assisting the 121 S 8th Street and 801 Marquette Leasing Team (CBRE) and
+            Property Management (RYAN Companies) in leasing of downtown office space.</div>
+        </div>
 
-      <h3>Fueled Collective - COCO Downtown - June 2015 to October 2017</h3>
-      <p><b>Community Manager</b> - A place for dreamers, creators and doers - budgeting and executing events,
-        activities,
-        daily operations and all on-boarding to make dreams happen for entreneupears . Increasing membership, learning
-        about member retention, sales, and providing tours and orientations for potential members. Creating budgets
-        for
-        member activities, as well as advocating for member needs and making coffee for over 400 members in the space
-        daily!</p>
+        <div class="position">
+          <h3 class="employer">Fueled Collective - COCO Downtown</h3>
+          <div class="employment-date">June 2015 to October 2017</div>
+          <div class="role">Community Manager</div>
+          <div class="description">A place for dreamers, creators and doers - budgeting and executing events activities,
+            daily operations and all on-boarding to make dreams happen for entreneupears. Increasing membership,
+            learning about member retention, sales and providing tours and orientations for potential members. Creating
+            budgets for member activities, as well as advocating for member needs and making coffee for over 400 members
+            in the space daily!
+          </div>
+        </div>
 
-      <h3>First Avenue & 7th Street Entry - August 2012 to Present</h3>
-      <p><b>Server/Security</b> - Working for one of the premier music venues in the country as security staff to
-        provide all
-        music goers the best possible experience and party they can have. Duties include checking IDs, cocktail
-        serving
-        in the Main Room, as well as working next door as a server in the Depot Tavern for pre-show and post-show
-        rushes, sporting events, and more!</p>
-    </section>
+        <div class="position">
+          <h3 class="employer">First Avenue & 7th Street Entry</h3>
+          <div class="employment-date">August 2012 to Present</div>
+          <div class="role">Server/Security</div>
+          <div class="description">Working for one of the premier music venues in the country as security staff to
+            provide all music goers the best possible experience and party they can have. Duties include checking IDs,
+            cocktail serving in the Main Room, as well as working next door as a server in the Depot Tavern for pre-show
+            and post-show rushes, sporting events, and more!
+          </div>
+        </div>
+      </section>
 
-    <section>
-      <h3>Education</h3>
-      <ul>
-        <li>Stillwater Area High School, Stillwater Minnesota: 2010</li>
-        <li>University of Minnesota, Twin Cities: Psychology B.S., 2014</li>
-      </ul>
-    </section>
 
-    <section>
-      <h3>Skills</h3>
-      <ul>
-        <li>Enjoys working in teams + strong organizational skills and an ability to multitask</li>
-        <li>Can provide creative solutions in challenging situations</li>
-        <li>Able to stay calm and focused in high pressure situations</li>
-        <li>Working with small businesses/local businesses</li>
-        <li>Proficient in software such as Microsoft Office and other data management programs</li>
-      </ul>
-    </section>
-  </main>
+
+      <section>
+        <div class="education">
+          <h2>Education</h2>
+          <ul>
+            <li>Stillwater Area High School, Stillwater Minnesota: 2010</li>
+            <li>University of Minnesota, Twin Cities: Psychology B.S., 2014</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <div class="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>Enjoys working in teams + strong organizational skills and an ability to multitask</li>
+            <li>Can provide creative solutions in challenging situations</li>
+            <li>Able to stay calm and focused in high pressure situations</li>
+            <li>Working with small businesses/local businesses</li>
+            <li>Proficient in software such as Microsoft Office and other data management programs</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </div>
 </body>
 
 </html>
